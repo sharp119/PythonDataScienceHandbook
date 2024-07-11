@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "pythondatasciencehandbook"
+version = "0.1.0"
+description = "have to follow it as a part of Prerequisites of this class ( COMS W4995 Applied Machine Learning Spring 2018  ): Familiarity with Python programming and basic use of NumPy, pandas and matplotlib. A good reference is the Python Data Science Handbook by Jake VanderPlas. It’s online for free and available as a notebook at the link above. Highly recommend going through it before starting the class ( https://www.cs.columbia.edu/~amueller/comsw4995s18/syllabus  )."
+authors = ["jakevdp <john@example.com>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+scikit-learn = "*"
+scikit-image = "*"
+pillow = "*"
+matplotlib = "*"
+seaborn = "*"
+jupyter = "*"
+notebook = "*"
+line-profiler = "*"
+memory-profiler = "*"
+numexpr = "*"
+pandas-datareader = "*"
+netcdf4 = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
